@@ -1,3 +1,15 @@
+/* shared section */
+.btn-primary {
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+}
+
+
 /* banner section */
 .greet-small {
     color: #FFF;
@@ -74,6 +86,7 @@
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .mid-2 {
@@ -82,37 +95,34 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-}
-
-.btn-primary {
-    border-radius: 8px;
-    background: #F00;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 16px 32px;
+    margin-bottom: 30px;
 }
 
 .mid-p-cont {
     margin-top: 72px;
     margin-left: 440px;
-    padding-top: 126px;
 }
 
 
 .midnight-party {
+    display: flex;
     background-image: url('../resources/vectorrr.png');
     background-repeat: no-repeat;
     background-position: center top;
     height: 600px;
     margin-bottom: 0;
 }
-
+.ny-2024 {
+    padding: 90px;
+}
 /* venue section */
 
 .venue {
     margin-top: 120px;
+    margin-left: 280px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
 }
 
 .red {
@@ -120,6 +130,7 @@
 }
 
 .venue-1 {
+    padding-top: 100px;
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -129,6 +140,7 @@
     text-transform: capitalize;
     text-align: center;
 }
+
 .join-2 {
     text-align: center;
 }
