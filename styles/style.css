@@ -301,3 +301,39 @@
     font-style: normal;
     font-weight: 600;
 }
+
+footer {
+    height: 609px;
+    background: #070211;
+    padding: 120px 140px;
+}
+
+.contact-1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.con-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fot-copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr1 {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
