@@ -264,3 +264,40 @@
     line-height: 32px;
     margin-top: 0;
 }
+
+.subscribe {
+    /* position: relative; */
+    margin: auto;
+    width: 50%;
+}
+
+#sub-mail {
+    border: none;
+    padding: 15px;
+    height: 42px;
+    width: 440px;
+    border-radius: 50px 0px 0px 50px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+#sub-conf {
+    position: absolute;
+    border: none;
+    padding: 15px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
